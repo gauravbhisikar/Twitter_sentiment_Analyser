@@ -1,0 +1,6 @@
+# Twitter_sentiment_Analyser
+
+
+In this code we are searching the word artificial intelligence, you can change the word or can take input from the user by replacing in word by input("Enter the word to be searched:")
+
+output will be tweets and their sentiment.
