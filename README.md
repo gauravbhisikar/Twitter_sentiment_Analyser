@@ -6,7 +6,6 @@ In this code we are searching the word Indian cricket Team, you can change the w
 output will be a file name data.csv containing tweets it's associated sentiment.
 
 ## Usage
- 1. open terminal  
- 2. cd 'path of repository'  
- 3. Then hit  
+ 1. open terminal in the same folder 
+ 2. Then just hit  
     python twitter_sentiment_analyser.py  
