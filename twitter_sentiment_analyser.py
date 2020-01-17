@@ -4,12 +4,14 @@ import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 
+# download vader_lexicon
+nltk.downloader.download('vader_lexicon')
 
-
-consumer_key = 
-consumer_secret = 
-access_token = 
-access_token_secret = 
+#twitter authentication
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret ='' 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -39,4 +41,5 @@ se = pd.Series(listy)
 data['polarity'] = se.values
 
 print(data.head(100))
+data.to_csv('data.csv')
 
